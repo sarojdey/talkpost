@@ -4,7 +4,7 @@ function Welcome() {
   return (
     <div className="flex pt-16 h-screen w-full justify-center ">
       <div className="gap-5 flex flex-col justify-center h-full items-center">
-        <h1 className="text-center text-6xl font-bold">
+        <h1 className="text-center text-6xl font-bold ">
           Where <span className="text-primary">Conversations</span> Begin <br />
           and Connections Grow.
         </h1>
