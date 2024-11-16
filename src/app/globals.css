@@ -12,6 +12,7 @@ body {
   :root {
     /* Background colors */
     --background: 212 0% 13%; /* #212121 */
+    --background-dark: 0 0% 11%; /* #1b1b1b */
     --foreground: 0 0% 93.3%; /* #EEEEEE */
 
     /* Card colors */
@@ -19,7 +20,8 @@ body {
     --card-foreground: 0 0% 93.3%; /* #EEEEEE for card text */
 
     /* Primary color */
-    --primary: 35 95% 53%; /* #FCA115 */
+    --primary: 218 85% 64%; /* #4C8FEF */
+    --primary-dark: 217 56% 49%; /* #2D6ECD */
     --primary-foreground: 0 0% 13%; /* Darker text color on lighter background */
 
     /* Secondary colors */
@@ -54,6 +56,72 @@ body {
 
     /* Radius for rounded corners */
     --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    /* Background colors */
+    --background: 212 0% 13%; /* #212121 */
+    --background-dark: 0 0% 11%; /* #1b1b1b */
+    --foreground: 0 0% 93.3%; /* #EEEEEE */
+
+    /* Card colors */
+    --card: 212 0% 8%; /* Darker #212121 */
+    --card-foreground: 0 0% 93.3%; /* #EEEEEE for card text */
+
+    /* Primary color */
+    --primary: 218 85% 64%; /* #4C8FEF */
+    --primary-dark: 217 56% 49%; /* #2D6ECD */
+    --primary-foreground: 0 0% 13%; /* Darker text color on lighter background */
+
+    /* Secondary colors */
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    /* Muted colors */
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    /* Accent colors */
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    /* Destructive colors */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Border and input colors */
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+
+    /* Ring color */
+    --ring: 0 0% 83.1%;
+
+    /* Chart colors */
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    /* Radius for rounded corners */
+    --radius: 0.5rem;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 

@@ -1,18 +1,28 @@
-import React from "react";
+import { AppSidebar } from "@/components/app-sidebar";
+import Post from "@/components/Post";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 function Home() {
   return (
-    <div className="flex min-h-screen">
-      <div className="absolute border-r left-0 border-[#9999] bg-card h-screen w-48">
-        l
+    <>
+      <div className="fixed h-full z-10">
+        <SidebarProvider>
+          <AppSidebar />
+          <div>
+            <SidebarTrigger className="bg-card border hover:bg-primary m-1" />
+          </div>
+        </SidebarProvider>
       </div>
-      <div className="min-h-screen w-48">l</div>
-      <div className="min-h-screen flex-1">m</div>
-      <div className="absolute border-l border-[#9999]  right-0 bg-card h-screen w-72">
-        r
+
+      <div className="flex min-h-screen">
+        <div className="min-h-screen  w-48"></div>
+        <div className="min-h-screen flex-1 p-5 gap-5 flex flex-col">
+          <Post /> <Post /> <Post /> <Post />
+        </div>
+        <div className="fixed border-l right-0 bg-card h-screen w-72"></div>
+        <div className="min-h-screen w-72"></div>
       </div>
-      <div className="min-h-screen w-72">r</div>
-    </div>
+    </>
   );
 }
 
